@@ -1,0 +1,78 @@
+<================== Flutter Library ==================>
+
+1. Data Visualization
+- Chart
+- fl_chart flutter library
+- https://pub.dev/packages/fl_chart
+
+2. Date Picker
+- Flutter Datetime Picker Formfield
+- https://pub.dev/packages/datetime_picker_formfield
+
+<================== Feachers ==================>
+1. Add expenses
+2. Add expense category
+3. Add Incomes
+4. Add Income category
+5. Compare weekly, monthly income and expense
+6. Visualize daily, weekly, and monthly income and expense
+7. Get rewards, points, and achivements
+8. Get feedbacks
+
+<================== Models ==================>
+
+1. User {
+- Email
+- Password
+- Name
+- Profile Picture
+- Reward Publication
+}
+
+2. Expense Category {
+- User (User Model)
+- Name
+}
+
+3. Expense {
+- User (User Model)
+- Name
+- Amount
+- Category Name (Expense Category Model)
+- Date
+}
+
+4. Income Category {
+- User (User Model)
+- Name
+}
+
+5. Income {
+- User (User Model)
+- Name
+- Amount
+- Category Name (Income Category Model)
+- Date
+}
+
+6. Reward {
+- User (User Model)
+- Progress Point
+- Badge
+}
+
+7. Achievement Category{
+- Name
+- Point
+}
+
+8. Achievement {
+- User (User Model)
+- Achivement (Achivement Category Model)
+}
+
+9. Feedback {
+- User (User Model)
+- Message 
+- Message Type
+}
