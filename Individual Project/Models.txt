@@ -1,4 +1,6 @@
 <================== Flutter Library ==================>
+Expense Category
+=> https://localfirstbank.com/article/budgeting-101-personal-budget-categories/
 
 1. Data Visualization
 - Chart
@@ -27,7 +29,7 @@
 - Name
 - Profile Picture
 - Reward Publication
-}
+} 
 
 2. Expense Category {
 - User (User Model)
